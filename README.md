@@ -1,77 +1,27 @@
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:1f6feb,100:0d1117&height=190&section=header&text=Tommy%20Wu&fontColor=ffffff&fontSize=60&fontAlignY=34&desc=Computer%20Engineering%20%40%20TMU%20%20%C2%B7%20%20Toronto&descSize=19&descAlignY=53&animation=fadeIn"
-    alt="Tommy Wu"
-  />
-</p>
+<img align="left" width="150" src="https://raw.githubusercontent.com/TommyWu1/TommyWu1/main/assets/spin-chip.svg">
 
-<p align="center">
-  <a href="https://tommywu.dev">
-    <img
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=520&lines=computer+engineering+at+TMU;mostly+C%2C+VHDL%2C+and+whatever+the+project+needs;currently+building+paddleiq.pro"
-      alt="computer engineering at TMU"
-    />
-  </a>
-</p>
+### Hey!
 
-<p align="center">
-  <a href="https://tommywu.dev"><img src="https://img.shields.io/badge/tommywu.dev-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="tommywu.dev" /></a>
-  <a href="https://linkedin.com/in/tommywu2"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://paddleiq.pro"><img src="https://img.shields.io/badge/paddleiq.pro-E8590C?style=for-the-badge&logo=rocket&logoColor=white" alt="paddleiq.pro" /></a>
-</p>
+🔧 I'm **Tommy**.
 
----
+⚡ Computer Engineering at TMU, and most of what I build ends up close to the hardware.
 
-Most of what I build ends up close to the hardware, either because the problem
-needs it or because I picked the harder version on purpose. Right now that means
-[paddleiq.pro](https://paddleiq.pro), which does table tennis analytics.
+🏓 Right now that's [**PaddleIQ**](https://paddleiq.pro), table tennis analysis from one iPhone.
 
-### Projects
+[![Toronto, CA](https://img.shields.io/badge/Toronto%2C%20CA-313131?style=flat)](https://github.com/TommyWu1) [![tommywu.dev](https://img.shields.io/badge/tommywu.dev-313131?style=flat)](https://tommywu.dev)
 
-[**healthunpacked**](https://github.com/TommyWu1/healthunpacked)
-Reads a 1 GB Apple Health export in 0.71s using 16 MB of RAM. `lxml` iterparse
-takes 10.69s on the same file, and a full-tree parse won't finish at all. The
-scanner is a C extension.
+<br clear="left"/>
 
-[**risc32-vhdl-cpu**](https://github.com/TommyWu1/risc32-vhdl-cpu)
-A 32-bit RISC CPU in VHDL with a custom 26-instruction ISA. Synthesizes at
-116 MHz on a Cyclone IV E using 567 logic elements.
+#### Building
 
-[**Quadcopter-Drone-SIL**](https://github.com/TommyWu1/Quadcopter-Drone-SIL)
-A PID altitude controller in C, running at 1 kHz against a Python model of the
-drone through ctypes. The tests cover hover, step response, sensor faults, and
-wind gusts.
+[**PaddleIQ**](https://paddleiq.pro) reads a table tennis match from a single iPhone, no sensors. It pairs the video with the sound of each ball strike to follow rallies through the angles a camera alone loses, then turns that into stroke stats, match analysis, and coaching priorities. Built at the DMZ.
 
-[**Maze-Solver-Robot**](https://github.com/TommyWu1/Maze-Solver-Robot)
-Assembly firmware for a robot that finds its own way through a maze. Freescale
-HCS12, six photoresistors for line and junction sensing.
+#### Projects
 
-[**flourish**](https://github.com/TommyWu1/flourish)
-Type a topic and a tree of sub-concepts grows. Answering a comprehension check
-on a node expands it. ConHacks 2026, live at
-[flourish-murex.vercel.app](https://flourish-murex.vercel.app).
+| **Hardware** | **Software** |
+| --- | --- |
+| • [risc32-vhdl-cpu](https://github.com/TommyWu1/risc32-vhdl-cpu) - 32-bit RISC CPU in VHDL, 116 MHz on a Cyclone IV E<br>• [8-Bit-VHDL-CPU-Implementation](https://github.com/TommyWu1/8-Bit-VHDL-CPU-Implementation) - 8-bit CPU in VHDL on a DE2-115<br>• [Maze-Solver-Robot](https://github.com/TommyWu1/Maze-Solver-Robot) - Assembly firmware for a maze-solving robot on a Freescale HCS12<br>• [Quadcopter-Drone-SIL](https://github.com/TommyWu1/Quadcopter-Drone-SIL) - PID altitude controller in C, tested at 1 kHz against a Python model | • [healthunpacked](https://github.com/TommyWu1/healthunpacked) - Reads a 1 GB Apple Health export in 0.71s, 16 MB of RAM<br>• [flourish](https://github.com/TommyWu1/flourish) - Type a topic, a tree of sub-concepts grows<br>• [RuleCheck](https://github.com/TommyWu1/RuleCheck) - CLI that checks vacation-policy edge cases against deterministic rules<br>• [POS-bookstore-app](https://github.com/TommyWu1/POS-bookstore-app) - JavaFX point-of-sale app with loyalty tiers |
 
-### Tools
+#### Tools
 
-<p>
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/VHDL-2C3E50?style=flat-square" alt="VHDL" />
-  <img src="https://img.shields.io/badge/Assembly-654FF0?style=flat-square" alt="Assembly" />
-  <br />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TommyWu1/TommyWu1/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TommyWu1/TommyWu1/output/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/TommyWu1/TommyWu1/output/github-snake.svg" />
-</picture>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:1f6feb,100:0d1117&height=110&section=footer&reversal=true" alt="" />
+[![C](https://img.shields.io/badge/C-313131?style=flat)]() [![VHDL](https://img.shields.io/badge/VHDL-313131?style=flat)]() [![Python](https://img.shields.io/badge/Python-313131?style=flat)]() [![Assembly](https://img.shields.io/badge/Assembly-313131?style=flat)]() [![FastAPI](https://img.shields.io/badge/FastAPI-313131?style=flat)]()
