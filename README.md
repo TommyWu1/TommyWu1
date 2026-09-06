@@ -34,16 +34,22 @@ takes 10.69s on the same file, and a full-tree parse won't finish at all. The
 scanner is a C extension.
 
 [**risc32-vhdl-cpu**](https://github.com/TommyWu1/risc32-vhdl-cpu)
-A 32-bit RISC CPU written in VHDL.
-
-[**Maze-Solver-Robot-TMU**](https://github.com/TommyWu1/Maze-Solver-Robot-TMU)
-A robot that finds its own way through a maze. Assembly, no libraries.
+A 32-bit RISC CPU in VHDL with a custom 26-instruction ISA. Synthesizes at
+116 MHz on a Cyclone IV E using 567 logic elements.
 
 [**Quadcopter-Drone-SIL**](https://github.com/TommyWu1/Quadcopter-Drone-SIL)
-Software in the loop simulation for quadcopter flight control.
+A PID altitude controller in C, running at 1 kHz against a Python model of the
+drone through ctypes. The tests cover hover, step response, sensor faults, and
+wind gusts.
+
+[**Maze-Solver-Robot**](https://github.com/TommyWu1/Maze-Solver-Robot)
+Assembly firmware for a robot that finds its own way through a maze. Freescale
+HCS12, six photoresistors for line and junction sensing.
 
 [**flourish**](https://github.com/TommyWu1/flourish)
-ConHacks 2026. Live at [flourish-murex.vercel.app](https://flourish-murex.vercel.app).
+Type a topic and a tree of sub-concepts grows. Answering a comprehension check
+on a node expands it. ConHacks 2026, live at
+[flourish-murex.vercel.app](https://flourish-murex.vercel.app).
 
 ### Tools
 
