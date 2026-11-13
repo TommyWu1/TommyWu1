@@ -1,0 +1,8 @@
+[
+  "pixel-guard: Simplify project documentation",
+  "pixel-guard: Document scanout and test commands",
+  "pixel-guard: Add simulation runner and frame preview",
+  "fpga-cache-controller: fix: add ChipScope board top and reliable ISE builds",
+  "fpga-cache-controller: docs: publish verified results and concise project documentation",
+  "fpga-cache-controller: fix: apply simulator generics to the selected testbench"
+]

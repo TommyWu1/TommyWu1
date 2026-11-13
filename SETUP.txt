@@ -1,0 +1,21 @@
+TOMMY WU — RECRUITER PROFILE
+
+INSTALL
+Copy README.md, assets/, data/, scripts/, and .github/workflows/refresh-profile.yml into the root of your public TommyWu1/TommyWu1 repository. Preserve any existing workflows. preview.html is a local visual preview and is optional on GitHub.
+
+This package has not been published. Review the files before committing. GitHub controls the profile page width, outer background, and mobile image layout.
+
+AUTOMATIC UPDATES
+The included workflow refreshes public GitHub data daily at 11:17 UTC, or manually from Actions > Refresh profile > Run workflow. It uses the repository's built-in GITHUB_TOKEN; no personal token or paid service is required. Repository rules must permit the workflow to push updates. If branch protection blocks it, use your normal pull-request process instead of weakening those rules. Scheduled workflows may be disabled by GitHub after repository inactivity; they can be re-enabled from Actions.
+
+LOCAL REFRESH
+Requires Python 3.10+ and GitHub CLI (gh) signed in to GitHub.
+  python3 scripts/refresh.py
+  python3 -m unittest discover -s scripts -p 'test_*.py'
+
+DATA AND DESIGN
+All scene geometry and motion were independently authored. No GitSkins image, endpoint, overlay or premium export is included. The style closely follows your visual reference, but is not a pixel-for-pixel copy.
+
+The room is a decorative night scene, not a live weather display. Its terminal loops recent commit messages from your two most recently pushed non-fork public projects. Books represent languages present in your public repositories. Stats cover the past 12 months. The profile emphasizes contributions and technical skills; follower counts and repository star counts are omitted. Activity cells use the actual GitHub calendar. The current streak permits today to be incomplete. The refresh date is shown publicly. Avatar is a bundled copy of your public GitHub photo.
+
+Assets are self-contained SVG files, with an embedded avatar and reduced-motion support. README includes accessible project descriptions and text links. All images render without a live external image provider, including when the refresh service is unavailable.
