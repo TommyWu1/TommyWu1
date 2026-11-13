@@ -19,3 +19,6 @@ All scene geometry and motion were independently authored. No GitSkins image, en
 The room is a decorative night scene, not a live weather display. Its terminal loops recent commit messages from your two most recently pushed non-fork public projects. Books represent languages present in your public repositories. Stats cover the past 12 months. The profile emphasizes contributions and technical skills; follower counts and repository star counts are omitted. Activity cells use the actual GitHub calendar. The current streak permits today to be incomplete. The refresh date is shown publicly. Avatar is a bundled copy of your public GitHub photo.
 
 Assets are self-contained SVG files, with an embedded avatar and reduced-motion support. README includes accessible project descriptions and text links. All images render without a live external image provider, including when the refresh service is unavailable.
+
+PROJECT CHOICES
+Cards follow your first four pinned repositories, with replacements from data/project-overrides.json. Align replaces Maze-Solver-Robot without changing your GitHub pins. Edit a replacement repository, title or description in that file and run Refresh profile to change the showcase.

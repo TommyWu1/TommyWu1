@@ -1,0 +1,47 @@
+[
+  {
+    "nameWithOwner": "TommyWu1/healthunpacked",
+    "name": "healthunpacked",
+    "description": "Read an Apple Health export without waiting for it",
+    "url": "https://github.com/TommyWu1/healthunpacked",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "Python",
+      "color": "#3572A5"
+    }
+  },
+  {
+    "nameWithOwner": "TommyWu1/risc32-vhdl-cpu",
+    "name": "risc32-vhdl-cpu",
+    "description": "32-bit RISC CPU in VHDL with a custom 26-instruction ISA. 116 MHz on a Cyclone IV E, 567 logic elements.",
+    "url": "https://github.com/TommyWu1/risc32-vhdl-cpu",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "VHDL",
+      "color": "#adb2cb"
+    }
+  },
+  {
+    "nameWithOwner": "DavidWu5/flourish",
+    "name": "flourish",
+    "description": "conhacks2026 project",
+    "url": "https://github.com/DavidWu5/flourish",
+    "stargazerCount": 1,
+    "primaryLanguage": {
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    }
+  },
+  {
+    "isPrivate": false,
+    "nameWithOwner": "jerryzhang04/align",
+    "name": "Align",
+    "description": "Voice-enabled posture coach for iPhone. Four-view scans, pose measurements and spoken guidance.",
+    "url": "https://github.com/jerryzhang04/align",
+    "stargazerCount": 1,
+    "primaryLanguage": {
+      "name": "TypeScript",
+      "color": "#3178c6"
+    }
+  }
+]

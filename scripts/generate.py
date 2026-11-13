@@ -72,7 +72,7 @@ def room(commits,languages):
 def build():
  profile=json.loads((P/'data/profile.json').read_text());repos=json.loads((P/'data/repos.json').read_text())
  user=json.loads((P/'data/github.json').read_text())['data']['user'];c=user['contributionsCollection'];calendar=c['contributionCalendar']
- projects=user['pinnedItems']['nodes'];days=[d for w in calendar['weeks'] for d in w['contributionDays']]
+ projects=json.loads((P/'data/projects.json').read_text()) if (P/'data/projects.json').exists() else user['pinnedItems']['nodes'];days=[d for w in calendar['weeks'] for d in w['contributionDays']]
  today=date.fromisoformat(json.loads((P/'data/meta.json').read_text())['date'])
  current,best=streaks(days,today)
  languages=list(dict.fromkeys(r['language'] for r in repos if r.get('language')))

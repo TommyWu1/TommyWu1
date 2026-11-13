@@ -14,7 +14,7 @@ Computer Engineering @ TMU · Founder @ paddleiq.pro
 <a href="https://github.com/TommyWu1/risc32-vhdl-cpu"><img src="assets/project-2.svg" width="49%" alt="risc32-vhdl-cpu: 32-bit RISC CPU in VHDL with a custom 26-instruction ISA. 116 MHz on a Cyclone IV E, 567 logic elements." /></a>
 
 <a href="https://github.com/DavidWu5/flourish"><img src="assets/project-3.svg" width="49%" alt="flourish: conhacks2026 project" /></a>
-<a href="https://github.com/TommyWu1/Maze-Solver-Robot"><img src="assets/project-4.svg" width="49%" alt="Maze-Solver-Robot: Assembly firmware for an autonomous maze-solving robot on a Freescale HCS12, using photoresistor line sensing." /></a>
+<a href="https://github.com/jerryzhang04/align"><img src="assets/project-4.svg" width="49%" alt="Align: Voice-enabled posture coach for iPhone. Four-view scans, pose measurements and spoken guidance." /></a>
 
 
 <img src="assets/activity.svg" width="100%" alt="GitHub contribution calendar and streak statistics" />
@@ -25,7 +25,7 @@ Computer Engineering @ TMU · Founder @ paddleiq.pro
 - [healthunpacked](https://github.com/TommyWu1/healthunpacked) — Read an Apple Health export without waiting for it
 - [risc32-vhdl-cpu](https://github.com/TommyWu1/risc32-vhdl-cpu) — 32-bit RISC CPU in VHDL with a custom 26-instruction ISA. 116 MHz on a Cyclone IV E, 567 logic elements.
 - [flourish](https://github.com/DavidWu5/flourish) — conhacks2026 project
-- [Maze-Solver-Robot](https://github.com/TommyWu1/Maze-Solver-Robot) — Assembly firmware for an autonomous maze-solving robot on a Freescale HCS12, using photoresistor line sensing.
+- [Align](https://github.com/jerryzhang04/align) — Voice-enabled posture coach for iPhone. Four-view scans, pose measurements and spoken guidance.
 
 </details>
 
