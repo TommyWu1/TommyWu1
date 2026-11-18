@@ -7,16 +7,16 @@
     "fork": false
   },
   {
-    "name": "pixel-guard",
-    "full_name": "TommyWu1/pixel-guard",
-    "language": "Python",
+    "name": "fpga-cache-controller",
+    "full_name": "TommyWu1/fpga-cache-controller",
+    "language": "VHDL",
     "stargazers_count": 0,
     "fork": false
   },
   {
-    "name": "fpga-cache-controller",
-    "full_name": "TommyWu1/fpga-cache-controller",
-    "language": "VHDL",
+    "name": "pixel-guard",
+    "full_name": "TommyWu1/pixel-guard",
+    "language": "Python",
     "stargazers_count": 0,
     "fork": false
   },
