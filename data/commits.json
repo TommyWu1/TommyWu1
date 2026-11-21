@@ -1,8 +1,8 @@
 [
+  "table-tennis-tournament: Merge pull request #13 from TommyWu1/codex/projector-demo",
+  "table-tennis-tournament: feat: add separate projector demonstration",
+  "table-tennis-tournament: Merge pull request #12 from TommyWu1/codex/check-in-experience",
   "fpga-cache-controller: Add Contributors section to README",
   "fpga-cache-controller: fix: add ChipScope board top and reliable ISE builds",
-  "fpga-cache-controller: docs: publish verified results and concise project documentation",
-  "pixel-guard: Simplify project documentation",
-  "pixel-guard: Document scanout and test commands",
-  "pixel-guard: Add simulation runner and frame preview"
+  "fpga-cache-controller: docs: publish verified results and concise project documentation"
 ]
